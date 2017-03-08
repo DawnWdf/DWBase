@@ -490,7 +490,6 @@
 			files = (
 			);
 			inputPaths = (
-				"$(SRCROOT)//Carthage/Build/iOS/ReactiveObjC.framework",
 			);
 			outputPaths = (
 			);
