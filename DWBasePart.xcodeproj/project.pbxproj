@@ -15,6 +15,18 @@
 		CF9588B41E6FF405005AFB9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF9588B21E6FF405005AFB9B /* LaunchScreen.storyboard */; };
 		CF9588BF1E6FF405005AFB9B /* DWBasePartTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9588BE1E6FF405005AFB9B /* DWBasePartTests.m */; };
 		CF9588CA1E6FF405005AFB9B /* DWBasePartUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9588C91E6FF405005AFB9B /* DWBasePartUITests.m */; };
+		CF9588E51E6FF4C6005AFB9B /* DWBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF9588DC1E6FF4C5005AFB9B /* DWBase.framework */; };
+		CF9588EC1E6FF4C6005AFB9B /* DWBaseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9588EB1E6FF4C6005AFB9B /* DWBaseTests.m */; };
+		CF9588EE1E6FF4C6005AFB9B /* DWBase.h in Headers */ = {isa = PBXBuildFile; fileRef = CF9588DE1E6FF4C6005AFB9B /* DWBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF9588F11E6FF4C6005AFB9B /* DWBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF9588DC1E6FF4C5005AFB9B /* DWBase.framework */; };
+		CF9588F21E6FF4C6005AFB9B /* DWBase.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CF9588DC1E6FF4C5005AFB9B /* DWBase.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CF9588FE1E6FF52F005AFB9B /* ATestObject.h in Headers */ = {isa = PBXBuildFile; fileRef = CF9588FC1E6FF52F005AFB9B /* ATestObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF9588FF1E6FF52F005AFB9B /* ATestObject.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9588FD1E6FF52F005AFB9B /* ATestObject.m */; };
+		CF9589021E6FF53E005AFB9B /* ATestView.h in Headers */ = {isa = PBXBuildFile; fileRef = CF9589001E6FF53E005AFB9B /* ATestView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF9589031E6FF53E005AFB9B /* ATestView.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9589011E6FF53E005AFB9B /* ATestView.m */; };
+		CF9589061E6FF565005AFB9B /* InnerLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = CF9589041E6FF565005AFB9B /* InnerLabel.h */; };
+		CF9589071E6FF565005AFB9B /* InnerLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9589051E6FF565005AFB9B /* InnerLabel.m */; };
+		CF95890B1E6FF5DA005AFB9B /* ReactiveObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF95890A1E6FF5DA005AFB9B /* ReactiveObjC.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,7 +44,42 @@
 			remoteGlobalIDString = CF9588A01E6FF405005AFB9B;
 			remoteInfo = DWBasePart;
 		};
+		CF9588E61E6FF4C6005AFB9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF9588991E6FF405005AFB9B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF9588DB1E6FF4C5005AFB9B;
+			remoteInfo = DWBase;
+		};
+		CF9588E81E6FF4C6005AFB9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF9588991E6FF405005AFB9B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF9588A01E6FF405005AFB9B;
+			remoteInfo = DWBasePart;
+		};
+		CF9588EF1E6FF4C6005AFB9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF9588991E6FF405005AFB9B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF9588DB1E6FF4C5005AFB9B;
+			remoteInfo = DWBase;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CF9588F81E6FF4C6005AFB9B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				CF9588F21E6FF4C6005AFB9B /* DWBase.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		CF9588A11E6FF405005AFB9B /* DWBasePart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DWBasePart.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +98,19 @@
 		CF9588C51E6FF405005AFB9B /* DWBasePartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DWBasePartUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF9588C91E6FF405005AFB9B /* DWBasePartUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DWBasePartUITests.m; sourceTree = "<group>"; };
 		CF9588CB1E6FF405005AFB9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF9588DC1E6FF4C5005AFB9B /* DWBase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DWBase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF9588DE1E6FF4C6005AFB9B /* DWBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DWBase.h; sourceTree = "<group>"; };
+		CF9588DF1E6FF4C6005AFB9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF9588E41E6FF4C6005AFB9B /* DWBaseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DWBaseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF9588EB1E6FF4C6005AFB9B /* DWBaseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DWBaseTests.m; sourceTree = "<group>"; };
+		CF9588ED1E6FF4C6005AFB9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF9588FC1E6FF52F005AFB9B /* ATestObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATestObject.h; sourceTree = "<group>"; };
+		CF9588FD1E6FF52F005AFB9B /* ATestObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATestObject.m; sourceTree = "<group>"; };
+		CF9589001E6FF53E005AFB9B /* ATestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATestView.h; sourceTree = "<group>"; };
+		CF9589011E6FF53E005AFB9B /* ATestView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATestView.m; sourceTree = "<group>"; };
+		CF9589041E6FF565005AFB9B /* InnerLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InnerLabel.h; sourceTree = "<group>"; };
+		CF9589051E6FF565005AFB9B /* InnerLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InnerLabel.m; sourceTree = "<group>"; };
+		CF95890A1E6FF5DA005AFB9B /* ReactiveObjC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveObjC.framework; path = Carthage/Build/iOS/ReactiveObjC.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +118,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF9588F11E6FF4C6005AFB9B /* DWBase.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,16 +136,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CF9588D81E6FF4C5005AFB9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF95890B1E6FF5DA005AFB9B /* ReactiveObjC.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF9588E11E6FF4C6005AFB9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF9588E51E6FF4C6005AFB9B /* DWBase.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		CF9588981E6FF405005AFB9B = {
 			isa = PBXGroup;
 			children = (
+				CF9589081E6FF5C8005AFB9B /* Framwork */,
 				CF9588A31E6FF405005AFB9B /* DWBasePart */,
+				CF9588DD1E6FF4C6005AFB9B /* DWBase */,
 				CF9588BD1E6FF405005AFB9B /* DWBasePartTests */,
 				CF9588C81E6FF405005AFB9B /* DWBasePartUITests */,
+				CF9588EA1E6FF4C6005AFB9B /* DWBaseTests */,
 				CF9588A21E6FF405005AFB9B /* Products */,
+				CF9589091E6FF5DA005AFB9B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,6 +175,8 @@
 				CF9588A11E6FF405005AFB9B /* DWBasePart.app */,
 				CF9588BA1E6FF405005AFB9B /* DWBasePartTests.xctest */,
 				CF9588C51E6FF405005AFB9B /* DWBasePartUITests.xctest */,
+				CF9588DC1E6FF4C5005AFB9B /* DWBase.framework */,
+				CF9588E41E6FF4C6005AFB9B /* DWBaseTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -140,7 +223,76 @@
 			path = DWBasePartUITests;
 			sourceTree = "<group>";
 		};
+		CF9588DD1E6FF4C6005AFB9B /* DWBase */ = {
+			isa = PBXGroup;
+			children = (
+				CF9588DE1E6FF4C6005AFB9B /* DWBase.h */,
+				CF9588FA1E6FF51B005AFB9B /* DWBaseUtil */,
+				CF9588FB1E6FF51B005AFB9B /* DWBaseView */,
+				CF9588DF1E6FF4C6005AFB9B /* Info.plist */,
+			);
+			path = DWBase;
+			sourceTree = "<group>";
+		};
+		CF9588EA1E6FF4C6005AFB9B /* DWBaseTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF9588EB1E6FF4C6005AFB9B /* DWBaseTests.m */,
+				CF9588ED1E6FF4C6005AFB9B /* Info.plist */,
+			);
+			path = DWBaseTests;
+			sourceTree = "<group>";
+		};
+		CF9588FA1E6FF51B005AFB9B /* DWBaseUtil */ = {
+			isa = PBXGroup;
+			children = (
+				CF9588FC1E6FF52F005AFB9B /* ATestObject.h */,
+				CF9588FD1E6FF52F005AFB9B /* ATestObject.m */,
+			);
+			path = DWBaseUtil;
+			sourceTree = "<group>";
+		};
+		CF9588FB1E6FF51B005AFB9B /* DWBaseView */ = {
+			isa = PBXGroup;
+			children = (
+				CF9589001E6FF53E005AFB9B /* ATestView.h */,
+				CF9589011E6FF53E005AFB9B /* ATestView.m */,
+				CF9589041E6FF565005AFB9B /* InnerLabel.h */,
+				CF9589051E6FF565005AFB9B /* InnerLabel.m */,
+			);
+			path = DWBaseView;
+			sourceTree = "<group>";
+		};
+		CF9589081E6FF5C8005AFB9B /* Framwork */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Framwork;
+			sourceTree = "<group>";
+		};
+		CF9589091E6FF5DA005AFB9B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF95890A1E6FF5DA005AFB9B /* ReactiveObjC.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		CF9588D91E6FF4C5005AFB9B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF9588EE1E6FF4C6005AFB9B /* DWBase.h in Headers */,
+				CF9589021E6FF53E005AFB9B /* ATestView.h in Headers */,
+				CF9589061E6FF565005AFB9B /* InnerLabel.h in Headers */,
+				CF9588FE1E6FF52F005AFB9B /* ATestObject.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		CF9588A01E6FF405005AFB9B /* DWBasePart */ = {
@@ -150,10 +302,12 @@
 				CF95889D1E6FF405005AFB9B /* Sources */,
 				CF95889E1E6FF405005AFB9B /* Frameworks */,
 				CF95889F1E6FF405005AFB9B /* Resources */,
+				CF9588F81E6FF4C6005AFB9B /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				CF9588F01E6FF4C6005AFB9B /* PBXTargetDependency */,
 			);
 			name = DWBasePart;
 			productName = DWBasePart;
@@ -196,6 +350,44 @@
 			productReference = CF9588C51E6FF405005AFB9B /* DWBasePartUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		CF9588DB1E6FF4C5005AFB9B /* DWBase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF9588F71E6FF4C6005AFB9B /* Build configuration list for PBXNativeTarget "DWBase" */;
+			buildPhases = (
+				CF9588D71E6FF4C5005AFB9B /* Sources */,
+				CF9588D81E6FF4C5005AFB9B /* Frameworks */,
+				CF9588D91E6FF4C5005AFB9B /* Headers */,
+				CF9588DA1E6FF4C5005AFB9B /* Resources */,
+				CF95890C1E6FF624005AFB9B /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DWBase;
+			productName = DWBase;
+			productReference = CF9588DC1E6FF4C5005AFB9B /* DWBase.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CF9588E31E6FF4C6005AFB9B /* DWBaseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF9588F91E6FF4C6005AFB9B /* Build configuration list for PBXNativeTarget "DWBaseTests" */;
+			buildPhases = (
+				CF9588E01E6FF4C6005AFB9B /* Sources */,
+				CF9588E11E6FF4C6005AFB9B /* Frameworks */,
+				CF9588E21E6FF4C6005AFB9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF9588E71E6FF4C6005AFB9B /* PBXTargetDependency */,
+				CF9588E91E6FF4C6005AFB9B /* PBXTargetDependency */,
+			);
+			name = DWBaseTests;
+			productName = DWBaseTests;
+			productReference = CF9588E41E6FF4C6005AFB9B /* DWBaseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -219,6 +411,15 @@
 						ProvisioningStyle = Automatic;
 						TestTargetID = CF9588A01E6FF405005AFB9B;
 					};
+					CF9588DB1E6FF4C5005AFB9B = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					CF9588E31E6FF4C6005AFB9B = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CF9588A01E6FF405005AFB9B;
+					};
 				};
 			};
 			buildConfigurationList = CF95889C1E6FF405005AFB9B /* Build configuration list for PBXProject "DWBasePart" */;
@@ -237,6 +438,8 @@
 				CF9588A01E6FF405005AFB9B /* DWBasePart */,
 				CF9588B91E6FF405005AFB9B /* DWBasePartTests */,
 				CF9588C41E6FF405005AFB9B /* DWBasePartUITests */,
+				CF9588DB1E6FF4C5005AFB9B /* DWBase */,
+				CF9588E31E6FF4C6005AFB9B /* DWBaseTests */,
 			);
 		};
 /* End PBXProject section */
@@ -266,7 +469,38 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CF9588DA1E6FF4C5005AFB9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF9588E21E6FF4C6005AFB9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CF95890C1E6FF624005AFB9B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)//Carthage/Build/iOS/ReactiveObjC.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CF95889D1E6FF405005AFB9B /* Sources */ = {
@@ -295,6 +529,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CF9588D71E6FF4C5005AFB9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF9589031E6FF53E005AFB9B /* ATestView.m in Sources */,
+				CF9589071E6FF565005AFB9B /* InnerLabel.m in Sources */,
+				CF9588FF1E6FF52F005AFB9B /* ATestObject.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF9588E01E6FF4C6005AFB9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF9588EC1E6FF4C6005AFB9B /* DWBaseTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -307,6 +559,21 @@
 			isa = PBXTargetDependency;
 			target = CF9588A01E6FF405005AFB9B /* DWBasePart */;
 			targetProxy = CF9588C61E6FF405005AFB9B /* PBXContainerItemProxy */;
+		};
+		CF9588E71E6FF4C6005AFB9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF9588DB1E6FF4C5005AFB9B /* DWBase */;
+			targetProxy = CF9588E61E6FF4C6005AFB9B /* PBXContainerItemProxy */;
+		};
+		CF9588E91E6FF4C6005AFB9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF9588A01E6FF405005AFB9B /* DWBasePart */;
+			targetProxy = CF9588E81E6FF4C6005AFB9B /* PBXContainerItemProxy */;
+		};
+		CF9588F01E6FF4C6005AFB9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF9588DB1E6FF4C5005AFB9B /* DWBase */;
+			targetProxy = CF9588EF1E6FF4C6005AFB9B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -486,6 +753,78 @@
 			};
 			name = Release;
 		};
+		CF9588F31E6FF4C6005AFB9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = DWBase/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dawn.DWBase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CF9588F41E6FF4C6005AFB9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = DWBase/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dawn.DWBase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CF9588F51E6FF4C6005AFB9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DWBaseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dawn.DWBaseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DWBasePart.app/DWBasePart";
+			};
+			name = Debug;
+		};
+		CF9588F61E6FF4C6005AFB9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DWBaseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dawn.DWBaseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DWBasePart.app/DWBasePart";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -505,6 +844,7 @@
 				CF9588D01E6FF405005AFB9B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CF9588D11E6FF405005AFB9B /* Build configuration list for PBXNativeTarget "DWBasePartTests" */ = {
 			isa = XCConfigurationList;
@@ -513,12 +853,30 @@
 				CF9588D31E6FF405005AFB9B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CF9588D41E6FF405005AFB9B /* Build configuration list for PBXNativeTarget "DWBasePartUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CF9588D51E6FF405005AFB9B /* Debug */,
 				CF9588D61E6FF405005AFB9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF9588F71E6FF4C6005AFB9B /* Build configuration list for PBXNativeTarget "DWBase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF9588F31E6FF4C6005AFB9B /* Debug */,
+				CF9588F41E6FF4C6005AFB9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CF9588F91E6FF4C6005AFB9B /* Build configuration list for PBXNativeTarget "DWBaseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF9588F51E6FF4C6005AFB9B /* Debug */,
+				CF9588F61E6FF4C6005AFB9B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
