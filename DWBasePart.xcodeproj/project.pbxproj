@@ -26,7 +26,6 @@
 		CF9589031E6FF53E005AFB9B /* ATestView.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9589011E6FF53E005AFB9B /* ATestView.m */; };
 		CF9589061E6FF565005AFB9B /* InnerLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = CF9589041E6FF565005AFB9B /* InnerLabel.h */; };
 		CF9589071E6FF565005AFB9B /* InnerLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9589051E6FF565005AFB9B /* InnerLabel.m */; };
-		CF95890B1E6FF5DA005AFB9B /* ReactiveObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF95890A1E6FF5DA005AFB9B /* ReactiveObjC.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -140,7 +139,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF95890B1E6FF5DA005AFB9B /* ReactiveObjC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
