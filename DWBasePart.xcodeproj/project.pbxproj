@@ -20,12 +20,8 @@
 		CF9588EE1E6FF4C6005AFB9B /* DWBase.h in Headers */ = {isa = PBXBuildFile; fileRef = CF9588DE1E6FF4C6005AFB9B /* DWBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CF9588F11E6FF4C6005AFB9B /* DWBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF9588DC1E6FF4C5005AFB9B /* DWBase.framework */; };
 		CF9588F21E6FF4C6005AFB9B /* DWBase.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CF9588DC1E6FF4C5005AFB9B /* DWBase.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		CF9588FE1E6FF52F005AFB9B /* ATestObject.h in Headers */ = {isa = PBXBuildFile; fileRef = CF9588FC1E6FF52F005AFB9B /* ATestObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CF9588FF1E6FF52F005AFB9B /* ATestObject.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9588FD1E6FF52F005AFB9B /* ATestObject.m */; };
-		CF9589021E6FF53E005AFB9B /* ATestView.h in Headers */ = {isa = PBXBuildFile; fileRef = CF9589001E6FF53E005AFB9B /* ATestView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CF9589031E6FF53E005AFB9B /* ATestView.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9589011E6FF53E005AFB9B /* ATestView.m */; };
-		CF9589061E6FF565005AFB9B /* InnerLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = CF9589041E6FF565005AFB9B /* InnerLabel.h */; };
-		CF9589071E6FF565005AFB9B /* InnerLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9589051E6FF565005AFB9B /* InnerLabel.m */; };
+		CF9589B21E77B170005AFB9B /* DWViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = CF9589B01E77B170005AFB9B /* DWViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF9589B31E77B170005AFB9B /* DWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9589B11E77B170005AFB9B /* DWViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -103,13 +99,9 @@
 		CF9588E41E6FF4C6005AFB9B /* DWBaseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DWBaseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF9588EB1E6FF4C6005AFB9B /* DWBaseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DWBaseTests.m; sourceTree = "<group>"; };
 		CF9588ED1E6FF4C6005AFB9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CF9588FC1E6FF52F005AFB9B /* ATestObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATestObject.h; sourceTree = "<group>"; };
-		CF9588FD1E6FF52F005AFB9B /* ATestObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATestObject.m; sourceTree = "<group>"; };
-		CF9589001E6FF53E005AFB9B /* ATestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATestView.h; sourceTree = "<group>"; };
-		CF9589011E6FF53E005AFB9B /* ATestView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATestView.m; sourceTree = "<group>"; };
-		CF9589041E6FF565005AFB9B /* InnerLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InnerLabel.h; sourceTree = "<group>"; };
-		CF9589051E6FF565005AFB9B /* InnerLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InnerLabel.m; sourceTree = "<group>"; };
 		CF95890A1E6FF5DA005AFB9B /* ReactiveObjC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveObjC.framework; path = Carthage/Build/iOS/ReactiveObjC.framework; sourceTree = "<group>"; };
+		CF9589B01E77B170005AFB9B /* DWViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWViewController.h; sourceTree = "<group>"; };
+		CF9589B11E77B170005AFB9B /* DWViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -225,8 +217,8 @@
 			isa = PBXGroup;
 			children = (
 				CF9588DE1E6FF4C6005AFB9B /* DWBase.h */,
-				CF9588FA1E6FF51B005AFB9B /* DWBaseUtil */,
-				CF9588FB1E6FF51B005AFB9B /* DWBaseView */,
+				CF9589B01E77B170005AFB9B /* DWViewController.h */,
+				CF9589B11E77B170005AFB9B /* DWViewController.m */,
 				CF9588DF1E6FF4C6005AFB9B /* Info.plist */,
 			);
 			path = DWBase;
@@ -239,26 +231,6 @@
 				CF9588ED1E6FF4C6005AFB9B /* Info.plist */,
 			);
 			path = DWBaseTests;
-			sourceTree = "<group>";
-		};
-		CF9588FA1E6FF51B005AFB9B /* DWBaseUtil */ = {
-			isa = PBXGroup;
-			children = (
-				CF9588FC1E6FF52F005AFB9B /* ATestObject.h */,
-				CF9588FD1E6FF52F005AFB9B /* ATestObject.m */,
-			);
-			path = DWBaseUtil;
-			sourceTree = "<group>";
-		};
-		CF9588FB1E6FF51B005AFB9B /* DWBaseView */ = {
-			isa = PBXGroup;
-			children = (
-				CF9589001E6FF53E005AFB9B /* ATestView.h */,
-				CF9589011E6FF53E005AFB9B /* ATestView.m */,
-				CF9589041E6FF565005AFB9B /* InnerLabel.h */,
-				CF9589051E6FF565005AFB9B /* InnerLabel.m */,
-			);
-			path = DWBaseView;
 			sourceTree = "<group>";
 		};
 		CF9589081E6FF5C8005AFB9B /* Framwork */ = {
@@ -283,10 +255,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF9589B21E77B170005AFB9B /* DWViewController.h in Headers */,
 				CF9588EE1E6FF4C6005AFB9B /* DWBase.h in Headers */,
-				CF9589021E6FF53E005AFB9B /* ATestView.h in Headers */,
-				CF9589061E6FF565005AFB9B /* InnerLabel.h in Headers */,
-				CF9588FE1E6FF52F005AFB9B /* ATestObject.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -530,9 +500,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF9589031E6FF53E005AFB9B /* ATestView.m in Sources */,
-				CF9589071E6FF565005AFB9B /* InnerLabel.m in Sources */,
-				CF9588FF1E6FF52F005AFB9B /* ATestObject.m in Sources */,
+				CF9589B31E77B170005AFB9B /* DWViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

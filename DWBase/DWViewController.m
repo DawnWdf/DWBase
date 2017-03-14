@@ -1,0 +1,57 @@
+//
+//  DWViewController.m
+//  DWBasePart
+//
+//  Created by Dawn Wang on 2017/3/14.
+//  Copyright © 2017年 Dawn Wang. All rights reserved.
+//
+
+#import "DWViewController.h"
+
+@interface DWViewController ()
+{
+    BOOL _priviousPageNavigationBarHidden;
+}
+@end
+
+@implementation DWViewController
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    // Do any additional setup after loading the view.
+}
+
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    _priviousPageNavigationBarHidden = self.navigationController.navigationBarHidden;
+    if(_priviousPageNavigationBarHidden && !_needHideNavigationBar)
+        [self.navigationController setNavigationBarHidden:FALSE animated:TRUE];
+    else if(!_priviousPageNavigationBarHidden && _needHideNavigationBar)
+        [self.navigationController setNavigationBarHidden:TRUE animated:TRUE];
+}
+
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
+    
+    if(_priviousPageNavigationBarHidden && !_needHideNavigationBar)
+        [self.navigationController setNavigationBarHidden:FALSE animated:FALSE];
+    else if (!_priviousPageNavigationBarHidden && _needHideNavigationBar)
+        [self.navigationController setNavigationBarHidden:TRUE animated:FALSE];
+}
+
+- (void)didReceiveMemoryWarning {
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
+}
+
+/*
+#pragma mark - Navigation
+
+// In a storyboard-based application, you will often want to do a little preparation before navigation
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    // Get the new view controller using [segue destinationViewController].
+    // Pass the selected object to the new view controller.
+}
+*/
+
+@end
