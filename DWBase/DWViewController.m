@@ -19,6 +19,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    [self configNav];
+    [self configView];
+    [self layoutView];
 }
 
 - (void)viewWillAppear:(BOOL)animated {
@@ -44,14 +47,19 @@
     // Dispose of any resources that can be recreated.
 }
 
-/*
-#pragma mark - Navigation
+#pragma mark - config view
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (void)configNav{
+
 }
-*/
+
+- (void)configView {
+    
+}
+
+
+- (void)layoutView {
+    
+}
 
 @end
