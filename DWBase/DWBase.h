@@ -17,5 +17,4 @@ FOUNDATION_EXPORT const unsigned char DWBaseVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <DWBase/PublicHeader.h>
 
-#import <DWBase/ATestObject.h>
-#import <DWBase/ATestView.h>
+#import <DWBase/DWViewController.h>
