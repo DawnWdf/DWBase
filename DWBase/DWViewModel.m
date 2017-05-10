@@ -10,6 +10,15 @@
 
 @implementation DWViewModel
 
+- (instancetype)init{
+    self = [super init];
+    if (self) {
+        [self setupUsecase];
+    }
+    
+    return self;
+}
+
 - (void)setupUsecase{
 }
 
