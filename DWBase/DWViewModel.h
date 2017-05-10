@@ -10,7 +10,7 @@
 
 @interface DWViewModel : NSObject
 
-@property (nonatomic, assign) int networkStatusCode;
+@property (nonatomic, assign) NSInteger networkStatusCode;
 
 - (void)setupUsecase;
 
