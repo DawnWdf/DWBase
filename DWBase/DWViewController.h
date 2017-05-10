@@ -12,4 +12,10 @@
 
 @property(nonatomic,assign) BOOL needHideNavigationBar;
 
+- (void)configNav;
+- (void)configView;
+- (void)layoutView;
+
+- (void)setupViewModel;
+
 @end

@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF0429F11EC2BBA400D36A2E /* DWViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = CF0429EF1EC2BBA400D36A2E /* DWViewModel.h */; };
+		CF0429F21EC2BBA400D36A2E /* DWViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CF0429F01EC2BBA400D36A2E /* DWViewModel.m */; };
+		CF0429F51EC2C47D00D36A2E /* DWView.h in Headers */ = {isa = PBXBuildFile; fileRef = CF0429F31EC2C47D00D36A2E /* DWView.h */; };
+		CF0429F61EC2C47D00D36A2E /* DWView.m in Sources */ = {isa = PBXBuildFile; fileRef = CF0429F41EC2C47D00D36A2E /* DWView.m */; };
 		CF9588A61E6FF405005AFB9B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9588A51E6FF405005AFB9B /* main.m */; };
 		CF9588A91E6FF405005AFB9B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9588A81E6FF405005AFB9B /* AppDelegate.m */; };
 		CF9588AC1E6FF405005AFB9B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9588AB1E6FF405005AFB9B /* ViewController.m */; };
@@ -77,6 +81,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		CF0429EF1EC2BBA400D36A2E /* DWViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWViewModel.h; sourceTree = "<group>"; };
+		CF0429F01EC2BBA400D36A2E /* DWViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWViewModel.m; sourceTree = "<group>"; };
+		CF0429F31EC2C47D00D36A2E /* DWView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWView.h; sourceTree = "<group>"; };
+		CF0429F41EC2C47D00D36A2E /* DWView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWView.m; sourceTree = "<group>"; };
 		CF9588A11E6FF405005AFB9B /* DWBasePart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DWBasePart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF9588A51E6FF405005AFB9B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CF9588A71E6FF405005AFB9B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -217,8 +225,12 @@
 			isa = PBXGroup;
 			children = (
 				CF9588DE1E6FF4C6005AFB9B /* DWBase.h */,
+				CF0429F31EC2C47D00D36A2E /* DWView.h */,
+				CF0429F41EC2C47D00D36A2E /* DWView.m */,
 				CF9589B01E77B170005AFB9B /* DWViewController.h */,
 				CF9589B11E77B170005AFB9B /* DWViewController.m */,
+				CF0429EF1EC2BBA400D36A2E /* DWViewModel.h */,
+				CF0429F01EC2BBA400D36A2E /* DWViewModel.m */,
 				CF9588DF1E6FF4C6005AFB9B /* Info.plist */,
 			);
 			path = DWBase;
@@ -255,6 +267,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF0429F51EC2C47D00D36A2E /* DWView.h in Headers */,
+				CF0429F11EC2BBA400D36A2E /* DWViewModel.h in Headers */,
 				CF9589B21E77B170005AFB9B /* DWViewController.h in Headers */,
 				CF9588EE1E6FF4C6005AFB9B /* DWBase.h in Headers */,
 			);
@@ -501,6 +515,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF9589B31E77B170005AFB9B /* DWViewController.m in Sources */,
+				CF0429F21EC2BBA400D36A2E /* DWViewModel.m in Sources */,
+				CF0429F61EC2C47D00D36A2E /* DWView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -836,6 +852,7 @@
 				CF9588F41E6FF4C6005AFB9B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CF9588F91E6FF4C6005AFB9B /* Build configuration list for PBXNativeTarget "DWBaseTests" */ = {
 			isa = XCConfigurationList;
@@ -844,6 +861,7 @@
 				CF9588F61E6FF4C6005AFB9B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

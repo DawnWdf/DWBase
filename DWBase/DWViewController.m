@@ -19,6 +19,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    [self setupViewModel];
     [self configNav];
     [self configView];
     [self layoutView];
@@ -62,4 +63,7 @@
     
 }
 
+#pragma mark - setup
+- (void)setupViewModel {
+}
 @end
