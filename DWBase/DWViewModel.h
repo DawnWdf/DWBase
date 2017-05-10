@@ -12,6 +12,8 @@
 
 @property (nonatomic, assign) NSInteger networkStatusCode;
 
+@property (nonatomic, copy) NSString *message;
+
 - (void)setupUsecase;
 
 @end
