@@ -17,5 +17,5 @@
 - (void)layoutView;
 
 - (void)setupViewModel;
-
+- (void)bindARCData;
 @end

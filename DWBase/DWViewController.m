@@ -66,4 +66,8 @@
 #pragma mark - setup
 - (void)setupViewModel {
 }
+
+- (void)bindARCData {
+    
+}
 @end
