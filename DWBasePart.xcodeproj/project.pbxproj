@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CF0429F11EC2BBA400D36A2E /* DWViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = CF0429EF1EC2BBA400D36A2E /* DWViewModel.h */; };
+		CF0429F11EC2BBA400D36A2E /* DWViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = CF0429EF1EC2BBA400D36A2E /* DWViewModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CF0429F21EC2BBA400D36A2E /* DWViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CF0429F01EC2BBA400D36A2E /* DWViewModel.m */; };
-		CF0429F51EC2C47D00D36A2E /* DWView.h in Headers */ = {isa = PBXBuildFile; fileRef = CF0429F31EC2C47D00D36A2E /* DWView.h */; };
+		CF0429F51EC2C47D00D36A2E /* DWView.h in Headers */ = {isa = PBXBuildFile; fileRef = CF0429F31EC2C47D00D36A2E /* DWView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CF0429F61EC2C47D00D36A2E /* DWView.m in Sources */ = {isa = PBXBuildFile; fileRef = CF0429F41EC2C47D00D36A2E /* DWView.m */; };
 		CF9588A61E6FF405005AFB9B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9588A51E6FF405005AFB9B /* main.m */; };
 		CF9588A91E6FF405005AFB9B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9588A81E6FF405005AFB9B /* AppDelegate.m */; };
